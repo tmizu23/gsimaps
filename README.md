@@ -1,5 +1,8 @@
-地理院地図　https://github.com/gsi-cyberjapan/gsimaps　をフォークしてエコリス地図タイル http://map.ecoris.info を追加してみました。
+地理院地図　https://github.com/gsi-cyberjapan/gsimaps
+をフォークしてエコリス地図タイル http://map.ecoris.info
+を追加してみました。
 
+地理院地図エコリスカスタマイズ　バージョン：
 http://tmizu23.github.io/gsimaps
 
 植生図の表示例
