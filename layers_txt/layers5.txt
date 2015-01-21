@@ -2,33 +2,123 @@
 	"layers": [
 		{
 			"type": "LayerGroup",
-			"title": "他の機関",
+			"title": "エコリス",
 			"open": false,
 			"toggleall": false,
 			"entries": [
 				{
-					"type": "LayerGroup",
-					"title": "植生",
-					"iconUrl": "",
-					"open": false,
-					"toggleall": false,
-					"entries": [
-						{
-							"type": "Layer",
-							"id": "vege",
-							"title": "第5回植生",
-							"iconUrl": "http://cyberjapandata.gsi.go.jp/portal/site/mapuse4/js/skin/101.png",
-							"url": "http://map.ecoris.info/tiles/vege/{z}/{x}/{y}.png",
-							"subdomains": "",
-							"attribution": "ecoris",
-							"cocotile": false,
-							"maxZoom": "15",
-							"maxNativeZoom": "15",
-							"legendUrl": "",
-							"html": ""
-						}
-					]
+					"type": "Layer",
+					"id": "vege",
+					"title": "第5回植生図",
+					"iconUrl": "http://www.ecoris.co.jp/favicon.png",
+					"url": "http://map.ecoris.info/tiles/vege/{z}/{x}/{y}.png",
+					"subdomains": "",
+					"attribution": "ecoris",
+					"cocotile": false,
+					"maxZoom": "15",
+					"maxNativeZoom": "15",
+					"legendUrl": "",
+					"html": ""
+				},
+				{
+					"type": "Layer",
+					"id": "vege67",
+					"title": "第6～7回 植生図",
+					"iconUrl": "http://www.ecoris.co.jp/favicon.png",
+					"url": "http://map.ecoris.info/tiles/vege67/{z}/{x}/{y}.png",
+					"subdomains": "",
+					"attribution": "ecoris",
+					"cocotile": false,
+					"maxZoom": "15",
+					"maxNativeZoom": "15",
+					"legendUrl": "",
+					"html": ""
+				},
+				{
+					"type": "Layer",
+					"id": "tanbo",
+					"title": "田んぼ",
+					"iconUrl": "http://www.ecoris.co.jp/favicon.png",
+					"url": "http://map.ecoris.info/tiles/tanbo/{z}/{x}/{y}.png",
+					"subdomains": "",
+					"attribution": "ecoris",
+					"cocotile": false,
+					"maxZoom": "15",
+					"maxNativeZoom": "15",
+					"legendUrl": "",
+					"html": ""
+				},
+				{
+					"type": "Layer",
+					"id": "sugihinoki",
+					"title": "スギ・ヒノキ・サワラ植林",
+					"iconUrl": "http://www.ecoris.co.jp/favicon.png",
+					"url": "http://map.ecoris.info/tiles/vegehill/{z}/{x}/{y}.png",
+					"subdomains": "",
+					"attribution": "ecoris",
+					"cocotile": false,
+					"maxZoom": "15",
+					"maxNativeZoom": "15",
+					"legendUrl": "",
+					"html": ""
+				},
+				{
+					"type": "Layer",
+					"id": "vegehill",
+					"title": "第5回 植生図（陰影起伏）",
+					"iconUrl": "http://www.ecoris.co.jp/favicon.png",
+					"url": "http://map.ecoris.info/tiles/vegehill/{z}/{x}/{y}.png",
+					"subdomains": "",
+					"attribution": "ecoris",
+					"cocotile": false,
+					"maxZoom": "15",
+					"maxNativeZoom": "15",
+					"legendUrl": "",
+					"html": ""
+				},
+				{
+					"type": "Layer",
+					"id": "vege67hill",
+					"title": "第6～7回 植生図（陰影起伏）",
+					"iconUrl": "http://www.ecoris.co.jp/favicon.png",
+					"url": "http://map.ecoris.info/tiles/vege67hill/{z}/{x}/{y}.png",
+					"subdomains": "",
+					"attribution": "ecoris",
+					"cocotile": false,
+					"maxZoom": "15",
+					"maxNativeZoom": "15",
+					"legendUrl": "",
+					"html": ""
+				},
+				{
+					"type": "Layer",
+					"id": "tanbohill",
+					"title": "田んぼ（陰影起伏）",
+					"iconUrl": "http://www.ecoris.co.jp/favicon.png",
+					"url": "http://map.ecoris.info/tiles/tanbohill/{z}/{x}/{y}.png",
+					"subdomains": "",
+					"attribution": "ecoris",
+					"cocotile": false,
+					"maxZoom": "15",
+					"maxNativeZoom": "15",
+					"legendUrl": "",
+					"html": ""
+				},
+				{
+					"type": "Layer",
+					"id": "sugihinokihill",
+					"title": "スギ・ヒノキ・サワラ植林（陰影起伏）",
+					"iconUrl": "http://www.ecoris.co.jp/favicon.png",
+					"url": "http://map.ecoris.info/tiles/vegehill/{z}/{x}/{y}.png",
+					"subdomains": "",
+					"attribution": "ecoris",
+					"cocotile": false,
+					"maxZoom": "15",
+					"maxNativeZoom": "15",
+					"legendUrl": "",
+					"html": ""
 				}
+				
 			]
 		}
 	]
